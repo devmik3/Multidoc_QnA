@@ -21,7 +21,7 @@ def read_and_textify(files):
   return [text_list,sources_list]
 
 st.set_page_config(layout="centered", page_title="Ixinium_Chatbot")
-st.headers("Ixinium_Chatbot")
+st.header("Ixinium_Chatbot")
 st.write("---")
 
 uploaded_files = st.file_uploader("Upload documents",accept_multiple_files=True, type=["txt","pdf"])
